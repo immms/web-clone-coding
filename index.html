@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Mobile</title>
+    <script src="https://kit.fontawesome.com/43163a343e.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video player -->
+    <section class="player">
+        <video autoplay controls width="250px" height="350px" src="video/Baoo.mov"></video>
+    </section>
+
+
+    <div class="infoAndUpNext">
+    <!-- Video Info -->
+    <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#바우</li>
+                <li>#시골강아지</li>
+                <li>#시고르자브종</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title clamp">
+                    (HTML,CSS,Javascript 실습하기) 여름에 팔공산 용수동 친할무니 집에서 사는 바우가 더워서 마당에서 엎드리고 있다.
+                    산책을 갈 때 빼고는 항상 묶여있는데 심심할 것 같다. 지금은 고모네 아파트에서 자유롭게 잘 살고 있음.
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <span class="views">1M views 1 month ago</span>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+            <li>
+                <button>
+                    <i class="active fas fa-thumbs-up"></i>
+                    <span>1K</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fas fa-thumbs-down"></i>
+                    <span>0</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fas fa-share"></i>
+                    <span>Share</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fas fa-plus"></i>
+                    <span>Save</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fab fa-font-awesome-flag"></i>
+                    <span>Report</span>
+                </button>
+            </li>
+        </ul>
+
+        <!-- Channel Description -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/baoo.jpeg" alt="">
+                <div class="info">
+                    <span class="name">immms</span>
+                    <span class="subscriber">15만</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+
+    <!-- Up Next -->
+    <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <!-- 박스안에 이미지 넣는 이유? -->
+                <div class="img"><img src="image/1.jpeg" alt=""></div>
+                <div class="info">
+                    <span class="title">상쾌한 노래모음</span>
+                    <span class="name">freshmusic</span>
+                    <span class="views">130만</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/2.jpeg" alt=""></div>
+                <div class="info">
+                    <span class="title">피곤할때 들으면 좋은 노래모음</span>
+                    <span class="name">hapoommusic</span>
+                    <span class="views">42만</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/3.jpeg" alt=""></div>
+                <div class="info">
+                    <span class="title">고양이 vlog</span>
+                    <span class="name">떼껄룩</span>
+                    <span class="views">101만</span>
+                    
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+    </div>
+
+
+
+</body>
+</html>
